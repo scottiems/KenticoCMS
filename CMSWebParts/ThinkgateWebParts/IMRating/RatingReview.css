@@ -1,0 +1,240 @@
+﻿#dvSP table tr td
+{
+text-align:center;
+}
+
+#dvRatingCount table tr td
+{
+text-align:center;
+}
+
+
+.lightBackground 
+{
+background-color: #DEE2E7;
+}
+
+#container 
+{
+background-color: #DEE2E7;
+margin: 0 auto;
+height: 100%;
+width: 100%;
+}
+
+#container table 
+{
+width: 95%;
+margin: 0 auto;
+margin-top: 45px;
+margin-bottom: 15px;
+}
+
+.checkbox 
+{
+font-size: small;
+}
+
+ .word-wrap-m
+{
+width: 50em;
+word-wrap: break-word;
+}
+
+
+.ReviewViewBodyBackground {
+background-color: #325fc6;
+}
+#dvRatingSummary table {
+width: 100%;
+}
+
+#dvRatingSummary table:first-child {
+font-weight: bolder;
+}
+
+
+
+table {
+width: 100%;
+}
+
+.margin-rigth-10 {
+margin-right: 10px;
+}
+.center {
+margin: auto;
+width: 70%;
+}
+
+.errorMessage {
+color: red;
+font-size: small;
+font-weight: bold;
+}
+.font-smaller {
+font-size: smaller;
+}
+.float-left {
+float: left;
+}
+
+.float-right {
+float: right;
+}
+.font-small
+{
+font-size: small;
+}
+
+
+hr
+{
+color: white;
+border: 1px solid white;
+}
+
+
+
+
+.black {
+color: black;
+}
+
+#remainingCharacters {
+font-size: smaller;
+float: right;
+color: red;
+}
+
+.dropdown_role {
+width: 220px;
+}
+
+.errorMessage {
+color: red;
+font-size: small;
+font-weight: bold;
+float: left;
+}
+
+.disclaimer
+{
+font-weight: bold;
+font-size: small;
+}
+
+.centeredText
+{
+text-align: center;
+}
+
+.rating
+{
+margin-left: 0px;  
+float: right;
+}
+.rating-text
+{
+margin-top: 4px;
+margin-left: 4px;
+float: right;
+}
+
+
+#dvRatingSummary table {
+width: 100%;
+border: 1px solid black;
+padding:0;
+border-spacing: 0;
+}
+
+#dvRatingSummary table tr:first-child {
+font-weight: bolder;
+background-color: #94baf2;
+height: 30px;
+}
+
+#dvRatingSummary table tr:first-child td {
+text-align: center;
+border: 1px solid #c5cedd;
+}
+
+#dvRatingSummary table tr:not(:first-child) {
+background-color: whitesmoke;
+text-align: center;
+}
+
+
+
+#dvRatingCount table tr td {
+border-bottom: 1px dotted grey;
+}
+
+        
+#dvRatingCount {
+width: 40%;
+border: 4px solid black;
+background-color: whitesmoke;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+#lblTotalRating, #lblAverageRating, #lblNaRating {
+font-weight: bold;
+font-size: 11pt;
+        }
+
+#lblTotalRating, #lblNaRating {
+margin-left: 6px;
+}
+        
+a {
+font-weight: bold;
+font-size: 11pt;
+}
+
+
+        
+
+.left-text {
+text-align: left;
+}
+
+.dot-line {
+border-bottom: 1px dotted grey;
+}
+        
+
+ 
+.display-none {
+display: none;
+}
+
+
+
+.summaryRatingTableColumn, .dateTableColumn
+{
+width:10%;
+}
+
+.ratingCreatorNameTableColumn
+{
+width: 20%;
+}
+
+#commentTableColumn
+{
+width: 60%;
+}
+
+#headerTable
+{
+width: 100%;
+}
+
+.btn-style
+{
+height: 50px;
+vertical-align: central;
+}

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SubjectCustomDDL.ascx.cs" Inherits="CMSFormControls_Thinkgate_SubjectCustomDDL" %>
+<asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>

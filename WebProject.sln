@@ -1,0 +1,79 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KenticoCMS7", "..\KenticoCMS7", "{DB587CA3-FA66-4CA1-BD89-891673535CC7}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{a438f98f-771e-4474-8a83-68722306f249}|Thinkgate.Services.Contracts.dll;{84F11540-5561-47B9-8C4E-B8020BE13772}|Thinkgate.BaseTypes.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/KenticoCMS7"
+		Debug.AspNetCompiler.PhysicalPath = "..\KenticoCMS7\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\KenticoCMS7\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/KenticoCMS7"
+		Release.AspNetCompiler.PhysicalPath = "..\KenticoCMS7\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\KenticoCMS7\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2678"
+		SlnRelativePath = "..\KenticoCMS7\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinkgate.BaseTypes", "..\..\..\Thinkgate.BaseTypes\Thinkgate.BaseTypes.csproj", "{84F11540-5561-47B9-8C4E-B8020BE13772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinkgate.Services.Contracts", "..\..\..\Thinkgate.Services\Contracts\Thinkgate.Services.Contracts.csproj", "{A438F98F-771E-4474-8A83-68722306F249}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.20.0.42:8080/tfs/primarycollection
+		SccWebProject0 = true
+		SccProjectUniqueName0 = .
+		SccProjectName0 = .
+		SccAuxPath0 = http://tgtfs:8080/tfs/primarycollection
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectEnlistmentChoice0 = 2
+		SccProjectUniqueName1 = ..\\..\\..\\Thinkgate.BaseTypes\\Thinkgate.BaseTypes.csproj
+		SccProjectName1 = ../../../Thinkgate.BaseTypes
+		SccAuxPath1 = http://172.20.0.42:8080/tfs/primarycollection
+		SccLocalPath1 = ..\\..\\..\\Thinkgate.BaseTypes
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\..\\Thinkgate.Services\\Contracts\\Thinkgate.Services.Contracts.csproj
+		SccProjectName2 = ../../../Thinkgate.Services/Contracts
+		SccAuxPath2 = http://172.20.0.42:8080/tfs/primarycollection
+		SccLocalPath2 = ..\\..\\..\\Thinkgate.Services\\Contracts
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB587CA3-FA66-4CA1-BD89-891673535CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB587CA3-FA66-4CA1-BD89-891673535CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB587CA3-FA66-4CA1-BD89-891673535CC7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB587CA3-FA66-4CA1-BD89-891673535CC7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{84F11540-5561-47B9-8C4E-B8020BE13772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F11540-5561-47B9-8C4E-B8020BE13772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F11540-5561-47B9-8C4E-B8020BE13772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F11540-5561-47B9-8C4E-B8020BE13772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A438F98F-771E-4474-8A83-68722306F249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A438F98F-771E-4474-8A83-68722306F249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A438F98F-771E-4474-8A83-68722306F249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A438F98F-771E-4474-8A83-68722306F249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

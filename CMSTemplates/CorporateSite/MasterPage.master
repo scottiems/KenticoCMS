@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="CMSTemplates_CorporateSite_MasterPage" %>
+
+
+
+<%@ Register Src="~/CMSWebParts/Navigation/cmslistmenu.ascx" TagName="listmenu"
+    TagPrefix="cms" %>
+
+<%@ Register Src="~/CMSWebParts/navigation/cmsbreadcrumbs.ascx" TagName="breadcrumbs"
+    TagPrefix="cms" %>
+
+<%=DocType%>
+<html xmlns="http://www.w3.org/1999/xhtml" <%=XmlNamespace%>>
+<head id="head" runat="server" enableviewstate="false">
+    <title id="title" runat="server">My site</title>
+    <asp:Literal runat="server" ID="ltlTags" EnableViewState="false" />
+    <link href="~/CMSPages/GetResource.ashx?stylesheetname=CorporateSitePrinter" type="text/css"
+        rel="stylesheet" media="print" />
+</head>
+<body class="<%=BodyClass%>" <%=BodyParameters%>>
+    <form id="form1" runat="server">
+    <asp:PlaceHolder runat="server" ID="plcManagers">
+        <ajaxToolkit:ToolkitScriptManager ID="manScript" runat="server" EnableViewState="false"
+            ScriptMode="Release" />
+        <cms:CMSPortalManager ID="manPortal" runat="server" EnableViewState="false" />
+    </asp:PlaceHolder>
+    <%--<cms:ContextMenuPlaceHolder ID="plcCtx" runat="server" />--%>
+    <!-- Top info -->
+   <%-- <div class="zoneTopInfo">
+        <div class="inner">
+            <div class="left">
+               
+            
+            </div>
+            <div class="right">
+                <div class="logon">
+                   
+                </div>
+                <div class="logon">
+                    
+                </div>
+                <div class="currentUserBlock">
+                   
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>--%>
+   <%-- <div class="zoneTopWrap">
+        <div class="inner">
+         
+            <div class="zoneLogo">
+               
+               
+            </div>
+          
+            <div class="zoneTop">
+               
+                <div class="styleSelectorCaption">
+                   
+                </div>
+                <div class="clear">
+                </div>
+                
+            </div>
+            <div class="clear">
+            </div>
+         
+            <div class="zoneMenu">
+             
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </div>--%>
+  <%--  <div class="zoneMenuWrap">
+        <div class="inner">--%>
+            <!-- Breadcrumbs -->
+        <%--    <div class="zoneBreadcrumbs">
+              
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>--%>
+    <!-- Content -->
+   <%-- <div class="zoneMainContent">--%>
+        <asp:ContentPlaceHolder ID="plcMain" runat="server">
+        </asp:ContentPlaceHolder>
+      <%--  <div class="clear">
+        </div>
+    </div>--%>
+    <!-- Footer zone -->
+    <%--<div class="zoneFooter">
+        <div class="inner">
+          
+            <div class="footerLogo">
+               
+               
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>--%>
+    </form>
+</body>
+</html>
